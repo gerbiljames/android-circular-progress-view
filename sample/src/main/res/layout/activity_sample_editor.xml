@@ -11,7 +11,7 @@
                 android:layout_width="@dimen/progress_size"
                 android:layout_height="@dimen/progress_size"
                 app:progressBarColor="@android:color/holo_red_dark"
-                app:progress="20"
+                app:cpvProgress="20"
                 app:progressThumb="true"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

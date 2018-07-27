@@ -5,7 +5,7 @@
         <attr name="shadow" format="boolean"/>
         <attr name="progressThumb" format="boolean"/>
         <attr name="startingAngle" format="integer"/>
-        <attr name="progress" format="integer"/>
+        <attr name="cpvProgress" format="integer"/>
         <attr name="progressBarThickness" format="dimension"/>
         <attr name="progressBarColor" format="color"/>
         <attr name="backgroundColor" format="color"/>

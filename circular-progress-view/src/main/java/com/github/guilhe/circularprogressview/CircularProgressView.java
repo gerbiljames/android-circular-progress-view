@@ -120,7 +120,7 @@ public class CircularProgressView extends View {
                 mShadowEnabled = typedArray.getBoolean(R.styleable.CircularProgressView_shadow, true);
                 mProgressThumbEnabled = typedArray.getBoolean(R.styleable.CircularProgressView_progressThumb, false);
                 mStartingAngle = typedArray.getInteger(R.styleable.CircularProgressView_startingAngle, DEFAULT_STARTING_ANGLE);
-                mProgress = typedArray.getFloat(R.styleable.CircularProgressView_progress, 0);
+                mProgress = typedArray.getFloat(R.styleable.CircularProgressView_cpvProgress, 0);
                 mProgressStrokeThickness = typedArray.getDimension(R.styleable.CircularProgressView_progressBarThickness, mDefaultStrokeThickness);
                 mProgressColor = typedArray.getInt(R.styleable.CircularProgressView_progressBarColor, DEFAULT_PROGRESS_COLOR);
                 mBackgroundColor = typedArray.getInt(R.styleable.CircularProgressView_backgroundColor, mProgressColor);
